@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/contacts.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/adapt.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+		<script type="text/javascript" src="../assets/js/jquery.the-modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="../assets/css/the-modal.css" media="all">
+	</head>
+	<body>
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Чайка</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="index.html">Главная</a>
+						<a class="nav__link" href="menu.html">Меню</a>
+						<a class="nav__link active" href="#">Контакты</a>
+					</nav>
+
+					<button class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="intro__menu" id="introH"></div>
+		<section style="margin: 60px auto 0;" class="section">
+			<div class="container">
+				<div class="block">
+					<h1 style="font-size: 30px;" class="block__title">Контакты</h1>
+					<p style="margin-bottom: 25px;" class="block__text">тут Вы можете узнать информацию, чтобы связаться с нами</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="contacts-grid">
+					<div>
+						<div class="gl__contacts"><a class="a__contacts" id="copy">+380 95 335 15 94</a></div>
+						<div><h4 class="h__contacts">Номер техпотдержки бизнеса</h4></div>
+						<div>Если есть какие-то проблемы с кафе, обращайтесь по заданному номеру</div>
+						<div class="vspl-modal" id="vspl-modal" style="display: none;">
+							<div class="vspl-text">Номер скопирован в буфер обмена </div>
+						</div>
+					</div>
+
+					<div>
+						<div class="gl__contacts"><a class="a__contacts" target="blank" href="https://mail.google.com/mail/u/1/?fs=1&to=maxmertsalov.gl@gmail.com&tf=cm">maxmertsalov.gl@gmail.com</a></div>
+						<div><h4 class="h__contacts">Адрес техпотдержки бизнеса</h4></div>
+						<div>Если есть какие-то проблемы с кафе, обращайтесь по заданному адресу</div>
+					</div>
+
+					<div>
+						<div class="gl__contacts"><a class="a__contacts" target="blank" href="https://mail.google.com/mail/u/1/?fs=1&to=maxmertsalov.gl@gmail.com&tf=cm">maxmertsalov.gl@gmail.com</a></div>
+						<div><h4 class="h__contacts">Адрес техпотдержки сайта</h4><div>
+						<div>Если есть какие-то проблемы с сайтом, обращайтесь по заданному адресу</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="block">
+			<h1 style="font-size: 22.5px;" class="block__title">Где находится</h1>
+			<p class="block__text">Город Середина-Буда, улица Европейская, №№</p>
+		</div>
+		<section class="section__map">
+			<div class="container__map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.0702552236285!2d34.03470201600373!3d52.18759566856217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412c6734d159bc5f%3A0xfa5420626a036e18!2z0KfQsNC50LrQsA!5e0!3m2!1sru!2sua!4v1629221712266!5m2!1sru!2sua" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</section>
+
+		<div style="display: none;" id="text">+380953351594</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Навигация сайта</h4>
+						<a href="index.html" class="menu__elem-footer">Главная</a>
+						<a href="menu.html" class="menu__elem-footer">Меню</a>
+						<a href="#" class="menu__elem-footer">Контакты</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Приложение</h4>
+						<a class="downl-link" href="app.html">Скачать приложение</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Язык интерфейса</h4>
+						<a class="language" href="../eng/contacts.html">Eng</a> /
+						<a class="language active">Рус</a> /
+						<a class="language" href="../contacts.html">Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text">&copy Все права защищены и принадлежат кафе "Чайка"</div>
+			</div>
+		</footer>
+
+		<script language="JavaScript" type="text/javascript" src="../assets/js/app.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/copy.js"></script>
+	</body>
+</html>
