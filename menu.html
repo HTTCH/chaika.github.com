@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ua">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/adapt.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		
+
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+
+		<script type="text/javascript" src="assets/js/jquery.the-modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/the-modal.css" media="all">
+	</head>
+	<body>
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Чайка</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="index.html">Головна</a>
+						<a class="nav__link active" href="#">Меню</a>
+						<a class="nav__link" href="contacts.html">Контакти</a>
+					</nav>
+
+					<button class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="intro__menu" id="introH"></div>
+		<section style="margin: 60px auto 0;" class="section">
+			<div class="container">
+				<div class="block">
+					<h1 style="font-size: 30px;" class="block__title">Наше меню</h1>
+					<p class="block__text">воно дуже різноманітне і смачне</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="MenuList">
+					<div class="category-menu">Разное</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Булка "Сонечко" (110г.)</div>
+						<div class="price">6.00 грн</div>
+						<a data-id="modal-window-0" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-0" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Булка "Сонечко" (110г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">6.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/0.jpg">
+								<p class="block__text">Всіма улюблена здоба «Сонечко» складається з шести окремих булочок. Цю булочку легко розділити на частини. Посипана цукром зверху. Ідеально підходить до молока або чашки кави.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Булка "Розочка" мак (120г)</div>
+						<div class="price">7.00 грн</div>
+						<a data-id="modal-window-1" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-1" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Булка "Розочка" мак (120г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">7.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/1.jpg">
+								<p class="block__text">Ці чудові булочки з маком в поєднанні з ранковою кавою або чаєм неодмінно додадуть необхідну на весь день енергію і бадьорість</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Пиріжки з повидлом (130г)</div>
+						<div class="price">7.00 грн</div>
+						<a data-id="modal-window-2" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-2" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Пиріжки з повидлом (130г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">7.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/2.jpg">
+								<p class="block__text">Пиріжки з повидлом - ласощі до чаю. Пиріг з повидлом нагадує нам про дитинство і домашній затишок.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Ватрушка (120г)</div>
+						<div class="price">7.00 грн</div>
+						<a data-id="modal-window-3" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-3" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Ватрушка (120г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">7.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/3.jpg">
+								<p class="block__text">Випечне виріб із здобного дріжджового тіста у вигляді невеликої товстої коржі, в середині якої знаходиться начинка як правило з сиру, рідше з варення або повидла</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Сосиска у тісті (160г)</div>
+						<div class="price">15.00 грн</div>
+						<a data-id="modal-window-4" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-4" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Сосиска в тісті (160г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/4.jpg">
+								<p class="block__text">Сосиска, покрита спірально накрученим в формі «ковбаски» здобним або листковим тістом і запечена в жаровій шафі.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Котлета у тісті (160г)</div>
+						<div class="price">15.00 грн</div>
+						<a data-id="modal-window-5" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-5" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Котлета у тісті (160г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/5.jpg">
+								<p class="block__text">Ця страва дуже ситна і смачна. Воно легко може стати хітом повсякденного меню.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Беляш (130г)</div>
+						<div class="price">15.00 грн</div>
+						<a data-id="modal-window-6" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-6" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Беляш (130г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/6.jpg">
+								<p class="block__text">Беляш - блюдо казахської, башкирської і татарської кухні. Являє собою відкритий пиріг з прісного або дріжджового тіста з м'ясним фаршем, смажений в олії.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Пельмені (150г)</div>
+						<div class="price">25.00 грн</div>
+						<a data-id="modal-window-7" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-7" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Пельмені (150г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">25.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/7.jpg">
+								<p class="block__text">Найсмачніші пельмені з заварного тесту, після поїдання яких Ви будуть перебувати в повному захопленні!</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Вареники (150г)</div>
+						<div class="price">25.00 грн</div>
+						<a data-id="modal-window-8" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-8" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Вареники (150г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">25.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/8.jpg">
+								<p class="block__text">Українське блюдо у вигляді відварених виробів з прісного тіста з начинкою (картопля / печінка)</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Фри-нагетс (300г)</div>
+						<div class="price">50.00 грн</div>
+						<a data-id="modal-window-9" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-9" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Фри-нагетс (300г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">50.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/9.jpg">
+								<p class="block__text">Блюдо американської кухні з філе курячої грудки в хрусткій паніровці, обсмаженої в маслі. Наш пакет включає: картопля-фрі 200г, нагетси 100г</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="category-menu">Млинці</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин "Фірмовий" (260г)</div>
+						<div class="price">27.00 грн</div>
+						<a data-id="modal-window-10" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-10" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Млин "Фірмовий" (260г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">27.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/10.jpg">
+								<p class="block__text">Склад: курятина, сир, гриби, соус Тар-Тар</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин "Царський" (275г)</div>
+						<div class="price">30.00 грн</div>
+						<a data-id="modal-window-11" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-11" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Блин "Царський" (275г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">30.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/11.jpg">
+								<p class="block__text">Склад: шинка, морква по-корейськи, гриби мариновані, майонез</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин "Пікантний" (295г)</div>
+						<div class="price">22.00 грн</div>
+						<a data-id="modal-window-12" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-12" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Млин "Пікантний" (295г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">22.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/12.jpg">
+								<p class="block__text">Склад: курка, морква по-корейськи, капуста, кетчуп, гірчиця, майонез.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин "Сладкоєжка" (265г)</div>
+						<div class="price">18.00 грн</div>
+						<a data-id="modal-window-13" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-13" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Млин "Сладкоєжка" (265г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">18.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/13.jpg">
+								<p class="block__text">Склад: сирна маса, сироп.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин "Фантазія" (180г)</div>
+						<div class="price">12.00 грн</div>
+						<a data-id="modal-window-14" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-14" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Млин "Фантазія" (180г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">12.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/14.jpg">
+								<p class="block__text">+топінг</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Млин (160г)</div>
+						<div class="price">10.00 грн</div>
+						<a data-id="modal-window-15" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-15" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Млин (160г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">10.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/15.jpg">
+								<p class="block__text">Дуже смачні і апетітная млинці, Пальчики оближеш!</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="category-menu">Піци</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца міни (180г)</div>
+						<div class="price">20.00 грн</div>
+						<a data-id="modal-window-16" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-16" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца іини (180г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/16.jpg">
+								<p class="block__text">Міні-піца в духовці - це невелика піца, зручна для порціонної подачі. Таку піцу можна давати для перекусу дітям в школу або брати з собою на роботу. Піца смачна навіть в охолодженому вигляді.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "Маргарита" (850г)</div>
+						<div class="price">65.00 грн</div>
+						<a data-id="modal-window-17" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-17" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Маргарита" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">65.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/17.jpg">
+								<p class="block__text">Піца Маргарита - традиційна італійська піца, мабуть, найпопулярніша в світі. Склад цієї піци надзвичайно простий, її основні інгредієнти: сир моцарелла, стиглі помідори і листя свіжого базиліка, які надають їй неповторний смак і аромат.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "Ассорті" (850г)</div>
+						<div class="price">95.00 грн</div>
+						<a data-id="modal-window-18" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-18" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піцца "Ассорті" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/18.jpg">
+								<p class="block__text">Піцa accopті в дуxoвкe - кoмбініpoвaнниe нaчінкі для кaждoгo члeнa ceмьі - цe виxoд, кoгдa вкуc cлішкoм paзниe. Пpocтo нужнo кaждoму видeліть пepcoнaльний учacтoк тecтa і пуcть жeлaющіe caмі зaнімaютcя нaчінкoй пo вкуc. Складається з курки, ананаса, грибів, сиру Моцарелли, помідорів, кетчупу і майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "NEXT" (850г)</div>
+						<div class="price">120.00 грн</div>
+						<a data-id="modal-window-19" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-19" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "NEXT" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/19.jpg">
+								<p class="block__text">Ця піца - справжній подарунок для любителів м'яса, в ній є шинка та ковбаса. Також в неї додають маслини. Доповнюють смакові якості цієї піци свіжі томати і соус Тар-Тар.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "Чайка" (850г)</div>
+						<div class="price">120.00 грн</div>
+						<a data-id="modal-window-20" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-20" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Чайка" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/20.jpg">
+								<p class="block__text">Справжня італійська піца. Тонкий хрусткий корж, м'яка соковита начинка, сир тягнеться і тане в роті. Складається з Морського коктейлю, сиру, оливок, соусу Тар-Тар.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "От Шефа" (850г)</div>
+						<div class="price">100.00 грн</div>
+						<a data-id="modal-window-21" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-21" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "От Шефа" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">100.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/21.jpg">
+								<p class="block__text">Уже за назвою зрозуміло, що це шедевр кулінарії. Піца складається з курки, ананаса, грибів, сирних продуктів, маринованого огірка, кетчупу і майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "Королівська" (850г)</div>
+						<div class="price">95.00 грн</div>
+						<a data-id="modal-window-22" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-22" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Королівська" (850г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/22.jpg">
+								<p class="block__text">Королівська піца - ця піца для королів їжі. Складається з курки, ананаса, грибів, сиру моцарелла, помідори, кетчупу, майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Піца "Карбонара" (600г)</div>
+						<div class="price">140.00 грн</div>
+						<a data-id="modal-window-23" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-23" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Карбонара" (600г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">140.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/23.jpg">
+								<p class="block__text">Таке чудове блюдо, як піца Карбонара з'явилося кілька десятиліть тому, а його рецепт був придуманий за мотивами пасти "Carbonara", яка відноситься до італійської національної кухні. Зроблена піца з сиру Філадельфія, бекону, сиру Пармезан, сиру моцарелла, печериць, сирного соусу</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="category-menu">Напої</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Кава "Експрессо" (70мл)</div>
+						<div class="price">8.00 грн</div>
+						<a data-id="modal-window-24" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-24" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Кава "Експрессо" (70мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/24.jpg">
+								<p class="block__text">Міцний, ароматний, насичений смаком кавовий напій, приготований за допомогою спеціальної есперссо-кавоварки.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Кава "Капучино" (140мл)</div>
+						<div class="price">11.00 грн</div>
+						<a data-id="modal-window-25" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-25" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Кава "Капучино" (140мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">11.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/25.jpg">
+								<p class="block__text">Кавовий напій італійської кухні на основі еспресо з додаванням в нього підігрітого спіненого молока.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Кава "Американо" (140мл)</div>
+						<div class="price">9.00 грн</div>
+						<a data-id="modal-window-26" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-26" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Кава "Американо" (140мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">9.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/26.jpg">
+								<p class="block__text">Напій на основі еспресо, додатково розведений водою.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Кава "Латте" (220мл)</div>
+						<div class="price">13.00 грн</div>
+						<a data-id="modal-window-27" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-27" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Кава "Латте" (220мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">13.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/27.jpg">
+								<p class="block__text">Кавовий напій родом з Італії, що складається з молока і кави еспресо. Латте вариться на основі молока, утворюючи в чашці або келиху тришарову суміш з молока, еспресо і піни.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Чай (220мл)</div>
+						<div class="price">8.00 грн</div>
+						<a data-id="modal-window-28" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-28" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Чай (220мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/28.jpg">
+								<p class="block__text">Напій, що отримується варінням, заваркою і / або настоюванням листа чайного куща, який попередньо готується спеціальним чином.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Чай фруктовий (220мл)</div>
+						<div class="price">15.00 грн</div>
+						<a data-id="modal-window-29" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-29" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Чай фруктовий (220мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/29.jpg">
+								<p class="block__text">Суміш різних видів обсмаженого рослинної сировини з додаванням рафінадної патоки і фруктових есенцій. При заварюванні фруктового чаю окропом виходить гарячий напій - приємний фруктовий настій коричневого або темно-коричневого кольору з кислувато-гірким смаком, який вживають з цукром і зазвичай без молока.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Н-к Кола+лід (400мл)</div>
+						<div class="price">20.00 грн</div>
+						<a data-id="modal-window-30" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-30" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Н-к Кола+лід (400мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/30.jpg">
+								<p class="block__text">Безалкогольний газований напій, вироблений компанією «Кока-Кола»</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Н-к Лимонад+лід (400мл)</div>
+						<div class="price">20.00 грн</div>
+						<a data-id="modal-window-31" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-31" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Н-к Лимонад+лід (400мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/31.jpg">
+								<p class="block__text">Солодкий безалкогольний напій, газований. Виготовляється з плодів лимона, води, і додаткових інгредієнтів.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Молочний коктейль  (400мл)</div>
+						<div class="price">40.00 грн</div>
+						<a data-id="modal-window-32" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-32" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Молочный коктейль  (400мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">40.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/32.jpg">
+								<p class="block__text">Десертный напиток на основе молока и мороженого, один из символов американской кухни. Для придания коктейлю разнообразных вкусов в него добавляют разнообразные сиропы, фрукты, ягоды и так далее</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Вершки (9,8мл)</div>
+						<div class="price">2.00 грн</div>
+						<a data-id="modal-window-33" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-33" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Вершки (9,8мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">2.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/33.jpg">
+								<p class="block__text">Вершки - густа рідина білого кольору, яка може бути також і кремового кольору. Вони володіють солодкуватим смаком і тягучою консистенцією.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div>Сироп / топінг (10мл)</div>
+						<div class="price">2.00 грн</div>
+						<a data-id="modal-window-34" href="#" id="btn__modal" class="trigger">Детальніше</a>
+
+						<div class="modal" id="modal-window-34" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Сироп / топпинг (10мл)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">2.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/menu/34.jpg">
+								<p class="block__text">Інгредієнт страви, що надає йому смакову і естетичну завершеність</p>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Навігація сайту</h4>
+						<a href="index.html" class="menu__elem-footer">Головна</a>
+						<a href="#" class="menu__elem-footer">Меню</a>
+						<a href="contacts.html" class="menu__elem-footer">Контакти</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Додаток</h4>
+						<a class="downl-link" href="app.html">Завантажити додаток</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Мова інтерфейсу</h4>
+						<a class="language" href="eng/menu.html">Eng</a> /
+						<a class="language" href="ru/menu.html">Рус</a> /
+						<a class="language active" >Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text">&copy Всі права захищені і належать кафе "ЧАЙКА"</div>
+			</div>
+		</footer>
+
+
+		<script type="text/javascript">
+			jQuery(function($){
+				// bind event handlers to modal triggers
+				$('body').on('click', '.trigger', function(e){
+				    e.preventDefault();
+				    $('#elem').fadeIn(1000);
+				    $('#'+$(this).attr('data-id')).modal().open();
+				});
+
+				// attach modal close handler
+				$('.modal .close').on('click', function(e){
+					e.preventDefault();
+					$('#elem').fadeOut(1000);
+					$.modal().close();
+				});
+
+
+				// below isn't important (demo-specific things)
+				$('.modal .more-toggle').on('click', function(e){
+					e.stopPropagation();
+					$('#elem').fadeOut(1000);
+					$('.modal .more').toggle();
+				});
+			});
+		</script>
+
+		<script language="JavaScript" type="text/javascript" src="assets/js/app.js"></script>
+	</body>
+</html>
