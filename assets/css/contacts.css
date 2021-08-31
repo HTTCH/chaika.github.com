@@ -1,0 +1,44 @@
+/*contacts*/
+
+.contacts-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	text-align: center; 
+}
+
+.h__contacts{
+	margin: 0;
+	font-weight: 530;
+	font-size: 17px;
+}
+.gl__contacts{
+	font-weight: 600; 
+	font-size: 17px;
+}
+.a__contacts{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+.a__contacts:hover{
+	color: #666;
+}
+
+.vspl-modal{
+    position: fixed;
+    z-index: 10;
+    border: 3px solid rgba(8,8,8,0.2);
+    color: #000;
+    background-color: #fefefe;
+    margin: 1% auto;
+    padding: 4px 20px;
+    /*width: 90%;*/
+    bottom: 0;
+    border-radius: 8px;
+}
+
+.vspl-text{
+	cursor: default;
+}
