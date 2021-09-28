@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/contacts.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/adapt.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+
+		<script type="text/javascript" src="assets/js/jquery.the-modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/the-modal.css" media="all">
+	</head>
+	<body>
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Чайка</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="index.html">Головна</a>
+						<a class="nav__link" href="menu.html">Меню</a>
+						<a class="nav__link" href="contacts.html">Контакти</a>
+					</nav>
+
+					<button onselectstart="return false" onmousedown="return false" class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="intro__menu" id="introH"></div>
+		<section style="margin: 60px auto 0;" class="section">
+			<div class="container">
+				<div class="block">
+					<h1 style="font-size: 30px;" class="block__title">Піци</h1>
+					<p style="margin-bottom: 25px;" class="block__text">тут Ви можете вибрати і замовити різну, смачну піцу</p>
+				</div>
+			</div>
+		</section>
+		<section class="section">
+			<div class="container">
+				<div class="pizza__text">Замовити піцу можна за номером:</div>
+				<div style="text-align: center;" class="gl__contacts"><a class="a__contacts" id="copy">+380 95 335 15 94</a></div>
+				<div class="vspl-modal" id="vspl-modal" style="display: none;">
+					<div class="vspl-text">Номер скопійований в буфер обміну</div>
+				</div>
+				<div style="display: none;" id="text">+380953351594</div>
+			</div>
+		</section>
+		<section class="section">
+			<div  class="container">
+				<div class="pizza-container">
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "Маргарита"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/1.JPG"></div>
+						<div class="pizza-price">(850г) 65.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-0">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-0" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Маргарита" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">65.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/1.JPG">
+								<p class="block__text">Піца Маргарита - традиційна італійська піца, мабуть, найпопулярніша в світі. Склад цієї піци надзвичайно простий, її основні інгредієнти: сир моцарелла, стиглі помідори і листя свіжого базиліка, які надають їй неповторний смак і аромат.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "Ассорти"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/2.jpg"></div>
+						<div class="pizza-price">(850г) 95.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-1">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-1" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Ассорти" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/2.JPG">
+								<p class="block__text">Піцa accopті - кoмбініpoвaнниe нaчінкі для кaждoгo члeнa ceмьі - цe виxoд, кoгдa вкуc cлішкoм paзниe. Пpocтo нужнo кaждoму видeліть пepcoнaльний учacтoк тecтa і пуcть жeлaющіe caмі зaнімaютcя нaчінкoй пo вкуc. Складається з курки, ананаса, грибів, сиру Моцарелли, помідорів, кетчупу і майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "NEXT"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/3.jpg"></div>
+						<div class="pizza-price">(850г) 120.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-2">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-2" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "NEXT" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/3.JPG">
+								<p class="block__text">Ця піца - справжній подарунок для любителів м'яса, в ній є шинка та ковбаса. Також в неї додають маслини. Доповнюють смакові якості цієї піци свіжі томати і соус Тар-Тар.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "Чайка"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/4.JPG"></div>
+						<div class="pizza-price">(850г) 120.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-3">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-3" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Чайка" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/4.JPG">
+								<p class="block__text">Справжня італійська піца. Тонкий хрусткий корж, м'яка соковита начинка, сир тягнеться і тане в роті. Складається з Морського коктейлю, сиру, оливок, соусу Тар-Тар.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "От Шефа"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/5.jpg"></div>
+						<div class="pizza-price">(850г) 100.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-4">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-4" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "От Шефа" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">100.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/5.JPG">
+								<p class="block__text">Уже за назвою зрозуміло, що це шедевр кулінарії. Піца складається з курки, ананаса, грибів, сирних продуктів, маринованого огірка, кетчупу і майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "Королівска"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/6.jpg"></div>
+						<div class="pizza-price">(850г) 95.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-5">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-5" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Королівска" (850г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/6.JPG">
+								<p class="block__text">Королівська піца - ця піца для королів їжі. Складається з курки, ананаса, грибів, сиру моцарелла, помідори, кетчупу, майонезу.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Піца "Карбонара"</div>
+						<div class="pizza-img"><img class="img-pizza" src="assets/images/pizza/7.jpg"></div>
+						<div class="pizza-price">(600г) 140.00грн</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-6">Детальніше</a></div>
+
+						<div class="modal" id="modal-window-6" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Піца "Карбонара" (600г.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">140.00грн</div>
+								</div>
+								
+								<img class="img__modal" src="assets/images/pizza/7.JPG">
+								<p class="block__text">Таке чудове блюдо, як піца Карбонара з'явилося кілька десятиліть тому, а його рецепт був придуманий за мотивами пасти "Carbonara", яка відноситься до італійської національної кухні. Зроблена піца з сиру Філадельфія, бекону, сиру Пармезан, сиру моцарелла, печериць, сирного соусу</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Навигация сайта</h4>
+						<a href="index.html" class="menu__elem-footer">Головна</a>
+						<a href="menu.html" class="menu__elem-footer">Меню</a>
+						<a href="#" class="menu__elem-footer">Піца</a>
+						<a href="contacts.html" class="menu__elem-footer">Контакти</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Додаток</h4>
+						<a class="downl-link" href="app.html">Завантажити додаток</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Мова інтерфейсу</h4>
+						<a class="language" href="eng/pizzas.html">Eng</a> /
+						<a class="language" href="ru/pizzas.html">Рус</a> /
+						<a class="language active">Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text">&copy Все права защищены и принадлежат кафе "Чайка"</div>
+			</div>
+		</footer>
+
+
+
+		<script type="text/javascript">
+			jQuery(function($){
+				// bind event handlers to modal triggers
+				$('body').on('click', '.trigger', function(e){
+				    e.preventDefault();
+				    $('#elem').fadeIn(1000);
+				    $('#'+$(this).attr('data-id')).modal().open();
+				});
+
+				// attach modal close handler
+				$('.modal .close').on('click', function(e){
+					e.preventDefault();
+					$('#elem').fadeOut(1000);
+					$.modal().close();
+				});
+
+
+				// below isn't important (demo-specific things)
+				$('.modal .more-toggle').on('click', function(e){
+					e.stopPropagation();
+					$('#elem').fadeOut(1000);
+					$('.modal .more').toggle();
+				});
+			});
+		</script>
+
+		<script src="assets/js/snowfall.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/addition-uk.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/app.js"></script>
+		<script language="JavaScript" type="text/javascript" src="assets/js/copy.js"></script>
+	</body>
+</html>
