@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/contacts.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/adapt.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+
+		
+		<link rel="stylesheet" type="text/css" href="../assets/css/the-modal.css" media="all">
+	</head>
+	<body onload="lifeSite()">
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Chaika</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="index.html">Home</a>
+						<a class="nav__link" href="menu.html">Menu</a>
+						<a class="nav__link" href="contacts.html">Contacts</a>
+					</nav>
+
+					<button onselectstart="return false" onmousedown="return false" class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="intro__menu" id="introH"></div>
+		<section style="margin: 60px auto 0;" class="section">
+			<div class="container">
+				<div class="block">
+					<h1 style="font-size: 30px;" class="block__title">Application</h1>
+					<p style="margin-bottom: 25px;" class="text">Our application can be downloaded to any platform</p>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="footer" style="margin-top: 35%;">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Site navigation</h4>
+						<a href="index.html" class="menu__elem-footer">Home</a>
+						<a href="menu.html" class="menu__elem-footer">Menu</a>
+						<a href="pizzas.html" class="menu__elem-footer">Pizzas</a>
+						<a href="contacts.html" class="menu__elem-footer">Contacts</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Application</h4>
+						<a class="downl-link" href="app.html">Download application</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Language</h4>
+						<a class="language active">Eng</a> /
+						<a class="language" href="../ru/app.html">Рус</a> /
+						<a class="language" href="../app.html">Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text"><a id="btn_copy" class="secret-copy">&copy</a> All rights reserved and belong to the cafe "CHAIKA".<div id="hide-copy" class="hide-copy"> The site has been live for <span id="life_site" class="days-life"></span>.</div></div>
+			</div>
+		</footer>
+
+		<script src="../assets/js/snowfall.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/addition.js"></script>
+		
+		<script language="JavaScript" type="text/javascript" src="../assets/js/app.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/live-site.js"></script>
+	</body>
+</html>
