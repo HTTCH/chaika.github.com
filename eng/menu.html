@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/adapt.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		
+
+		<script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+
+		<script type="text/javascript" src="../assets/js/jquery.the-modal.js"></script>
+		<link rel="stylesheet" type="text/css" href="../assets/css/the-modal.css" media="all">
+	</head>
+	<body>
+
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Chaika</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="index.html">Home</a>
+						<a class="nav__link active" href="#">Menu</a>
+						<a class="nav__link" href="contacts.html">Contacts</a>
+					</nav>
+
+					<button onselectstart="return false" onmousedown="return false" class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+
+		<div class="intro__menu" id="introH"></div>
+		<section style="margin: 60px auto 0;" class="section">
+			<div class="container">
+				<div class="block">
+					<h1 style="font-size: 30px;" class="block__title">Our menu</h1>
+					<p class="block__text">it is very varied and tasty</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="MenuList">
+					<div class="category-menu">Other</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Roll/bun/loaf "Sunshine" (110g.)</div>
+						<div class="price">8.00 grn</div>
+						<a data-id="modal-window-0" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-0" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Булка "Sunshine" (110g.)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/0.jpg">
+								<p class="block__text">Everyone's favorite "Sunshine" bun consists of six separate buns. This bun is easy to cut into pieces. Sprinkled with sugar on top. Ideal with milk or a cup of coffee.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Булка "Rose" with poppy (120g)</div>
+						<div class="price">8.00 grn</div>
+						<a data-id="modal-window-1" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-1" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Булка "Rose" with poppy (120g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/1.jpg">
+								<p class="block__text">These wonderful buns with poppy seeds, combined with morning coffee or tea, will certainly give you the energy and vitality you need for the whole day.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pies with jam (130g)</div>
+						<div class="price">10.00 grn</div>
+						<a data-id="modal-window-2" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-2" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pies with jam (130g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">10.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/2.jpg">
+								<p class="block__text">Jam pies are a delicacy for tea. Jam pies remind us of childhood and home comfort.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Hot-Dog (120g)</div>
+						<div class="price">35.00 grn</div>
+						<a data-id="modal-window-3" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-3" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Hot-Dog (120g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">35.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/3.jpg">
+								<p class="block__text">A Hot-Dog is a sausage or sausage in a cut bun, flavored with mayonnaise, ketchup or mustard.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Sausage in dough (160g)</div>
+						<div class="price">15.00 grn</div>
+						<a data-id="modal-window-4" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-4" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Sausage in dough (160g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/4.jpg">
+								<p class="block__text">Sausage, covered with spirally rolled sausage-shaped pastry or puff pastry and baked in an oven.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Cutlet in dough (160g)</div>
+						<div class="price">15.00 grn</div>
+						<a data-id="modal-window-5" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-5" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Cutlet in dough (160g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/5.jpg">
+								<p class="block__text">This dish is very satisfying and delicious. It can easily become a hit on the everyday menu.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Belyash (130g)</div>
+						<div class="price">15.00 grn</div>
+						<a data-id="modal-window-6" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-6" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Belyash (130g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/6.jpg">
+								<p class="block__text">Belyash is a dish of Kazakh, Bashkir and Tatar cuisine. It is an open pie made from unleavened or yeast dough with minced meat, fried in oil.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Dumplings (150g)</div>
+						<div class="price">25.00 grn</div>
+						<a data-id="modal-window-7" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-7" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Dumplings (150g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">25.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/7.jpg">
+								<p class="block__text">The most delicious choux pastry dumplings, after eating which you will be in complete admiration!</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Vareniki (150g)</div>
+						<div class="price">25.00 grn</div>
+						<a data-id="modal-window-8" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-8" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Vareniki (150g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">25.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/8.jpg">
+								<p class="block__text">Ukrainian dish in the form of boiled products from unleavened dough with filling (potatoes / liver) </p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Free nuggets (300g)</div>
+						<div class="price">50.00 grn</div>
+						<a data-id="modal-window-9" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-9" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Free nuggets (300g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">50.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/9.jpg">
+								<p class="block__text">American cuisine dish of chicken breast fillet in a crispy breading, fried in oil. Our package includes: french fries 200g, nuggets 100g</p>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="category-menu">Pancakes</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pancake "Firmennyy" (260g)</div>
+						<div class="price">27.00 grn</div>
+						<a data-id="modal-window-10" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-10" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pancake "Firmennyy" (260g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">27.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/10.jpg">
+								<p class="block__text">Ingredients: chicken, cheese, mushrooms, Tar-Tar sauce</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pancake "Tsarsky" (275g)</div>
+						<div class="price">30.00 grn</div>
+						<a data-id="modal-window-11" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-11" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pancake "Tsarsky" (275g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">30.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/11.jpg">
+								<p class="block__text">Ingredients: ham, Korean carrots, pickled mushrooms, mayonnaise</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pancake "Pikantnyy" (295g)</div>
+						<div class="price">22.00 grn</div>
+						<a data-id="modal-window-12" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-12" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pancake "Pikantnyy" (295g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">22.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/12.jpg">
+								<p class="block__text">Ingredients: chicken, Korean carrots, cabbage, ketchup, mustard, mayonnaise</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pancake "Sladkoyezhka" (265g)</div>
+						<div class="price">18.00 grn</div>
+						<a data-id="modal-window-13" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-13" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pancake "Sladkoyezhka" (265g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">18.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/13.jpg">
+								<p class="block__text">Ingredients: curd mass, syrup</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pancake "Fantaziya" (180g)</div>
+						<div class="price">12.00 grn</div>
+						<a data-id="modal-window-14" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-14" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pancake "Fantaziya" (180g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">12.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/14.jpg">
+								<p class="block__text">+topping</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Puncake (160g)</div>
+						<div class="price">10.00 grn</div>
+						<a data-id="modal-window-15" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-15" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Puncake (160г)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">10.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/15.jpg">
+								<p class="block__text">Very tasty and mouth-watering pancakes, you will lick your fingers!</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="category-menu">Pizzas</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Mini pizza (180g)</div>
+						<div class="price">20.00 grn</div>
+						<a data-id="modal-window-16" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-16" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Mini pizza (180g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/16.jpg">
+								<p class="block__text">Oven Mini Pizza is a small pizza that is easy to serve in portions. This pizza can be given for a snack to children at school or taken with you to work. The pizza is delicious even when cooled down.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "Margarita" (850g)</div>
+						<div class="price">65.00 grn</div>
+						<a data-id="modal-window-17" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-17" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "Margarita" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">65.00 грн</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/17.jpg">
+								<p class="block__text">Pizza Margarita is a traditional Italian pizza, perhaps the most popular in the world. The composition of this pizza is unusually simple, its main ingredients are mozzarella cheese, ripe tomatoes and fresh basil leaves, which give it a unique taste and aroma.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "Assorte" (850g)</div>
+						<div class="price">95.00 grn</div>
+						<a data-id="modal-window-18" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-18" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "Assorte" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/18.jpg">
+								<p class="block__text">Pizza Assorte in the oven - combined toppings for each member of the family - this is the way out when the tastes are too different. You just need to select each one a personal part of the test and let those who wish themselves start to taste it. Consists of chicken, pineapple, mushrooms, Mozzarella cheese, tomatoes, ketchup and mayonnaise.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "NEXT" (850г)</div>
+						<div class="price">120.00 grn</div>
+						<a data-id="modal-window-19" href="#" id="btn__modal" class="trigger">More Details</a>
+
+						<div class="modal" id="modal-window-19" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "NEXT" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/19.jpg">
+								<p class="block__text">This pizza is a real treat for meat lovers, it has ham and sausage. Olives are also added to it. Fresh tomatoes and Tar-Tar sauce complement the taste of this pizza.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "Chaika" (850g)</div>
+						<div class="price">120.00 grn</div>
+						<a data-id="modal-window-20" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-20" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "Chaika" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">120.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/20.jpg">
+								<p class="block__text">Real Italian pizza. Thin crunchy crust, soft juicy filling, cheese stretches and melts in the mouth. Consists of Seafood cocktail, cheese, olives, Tar-Tar sauce.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "From the chef" (850g)</div>
+						<div class="price">110.00 грн</div>
+						<a data-id="modal-window-21" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-21" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "From the chef" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">110.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/21.jpg">
+								<p class="block__text">Already by the name it is clear that this is a culinary masterpiece. The pizza consists of chicken, pineapple, mushrooms, cheese products, pickled cucumber, ketchup and mayonnaise.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "Royal" (850g)</div>
+						<div class="price">95.00 grn</div>
+						<a data-id="modal-window-22" href="#" id="btn__modal" class="trigger">Подробнее</a>
+
+						<div class="modal" id="modal-window-22" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "Royal" (850g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">95.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/22.jpg">
+								<p class="block__text">Royal Pizza is the pizza for food kings. Consists of chicken, pineapple, mushrooms, Mozzarella cheese, tomato, ketchup, mayonnaise.</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Pizza "Carbonara" (600g)</div>
+						<div class="price">140.00 grn</div>
+						<a data-id="modal-window-23" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-23" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Pizza "Carbonara" (600g)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">140.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/23.jpg">
+								<p class="block__text">Such a wonderful dish as Carbonara pizza appeared several decades ago, and its recipe was invented based on the Carbonara pasta, which belongs to the Italian national cuisine. Made pizza from Philadelphia cheese, bacon, Parmesan cheese, Mozzarella cheese, mushrooms, cheese sauce</p>
+
+								<a id="pizza-pereiti" href="pizzas.html" style="display:table; margin: 0 auto;" class="btn">Go to the pizza page</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="category-menu">Drinkables</div>
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Espresso coffee (70ml)</div>
+						<div class="price">8.00 grn</div>
+						<a data-id="modal-window-24" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-24" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Espresso coffee (70ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/24.jpg">
+								<p class="block__text">Strong, aromatic, full of taste coffee drink, prepared with a special espersso coffee maker.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Cappuccino coffee (140ml)</div>
+						<div class="price">11.00 grn</div>
+						<a data-id="modal-window-25" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-25" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Cappuccino coffee (140ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">11.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/25.jpg">
+								<p class="block__text">An espresso-based Italian coffee drink with warmed frothed milk.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Americano coffee (140ml)</div>
+						<div class="price">9.00 grn</div>
+						<a data-id="modal-window-26" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-26" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Americano coffee (140ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">9.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/26.jpg">
+								<p class="block__text">An espresso drink additionally diluted with water.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Latte Coffee (220ml)</div>
+						<div class="price">13.00 grn</div>
+						<a data-id="modal-window-27" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-27" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Latte Coffee (220ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">13.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/27.jpg">
+								<p class="block__text">A coffee drink originally from Italy, consisting of milk and espresso coffee. Latte is brewed on the basis of milk, forming a three-layer mixture of milk, espresso and foam in a cup or glass.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">A tea (220ml)</div>
+						<div class="price">8.00 grn</div>
+						<a data-id="modal-window-28" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-28" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">A tea (220ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">8.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/28.jpg">
+								<p class="block__text">A drink obtained by boiling, brewing and / or infusing a leaf of a tea bush, which is previously prepared in a special way.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Fruit tea (220ml)</div>
+						<div class="price">15.00 grn</div>
+						<a data-id="modal-window-29" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-29" style="display: none">
+							<div class="modal__content1">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Fruit tea (220ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">15.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/29.jpg">
+								<p class="block__text">A mixture of various types of roasted vegetable raw materials with the addition of molasses and fruit essences. When brewing fruit tea with boiling water, a hot drink is obtained - a pleasant fruit infusion of brown or dark brown color with a sour-bitter taste, which is consumed with sugar and usually without milk.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">N-k Cola+ice (400ml)</div>
+						<div class="price">20.00 grn</div>
+						<a data-id="modal-window-30" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-30" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">N-k Cola+ice (400ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/30.jpg">
+								<p class="block__text">Carbonated soft drink produced by Coca-Cola</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">N-k Lemonade+ice (400ml)</div>
+						<div class="price">20.00 grn</div>
+						<a data-id="modal-window-31" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-31" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Н-к Lemonade+ice (400ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">20.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/31.jpg">
+								<p class="block__text">Sweet, non-alcoholic, carbonated drink. It is made from lemon fruits, water, and additional ingredients.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Milkshake  (400ml)</div>
+						<div class="price">40.00 grn</div>
+						<a data-id="modal-window-32" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-32" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Milkshake  (400ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">40.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/32.jpg">
+								<p class="block__text">A dessert drink based on milk and ice cream, one of the symbols of American cuisine. To give the cocktail a variety of flavors, a variety of syrups, fruits, berries, and so on are added to it</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Cream (9,8ml)</div>
+						<div class="price">2.00 grn</div>
+						<a data-id="modal-window-33" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-33" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Cream (9,8ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">2.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/33.jpg">
+								<p class="block__text">Cream is a thick white liquid that can also be creamy. They have a sweetish taste and a viscous consistency.</p>
+							</div>
+						</div>
+					</div>
+
+					<hr class="hr">
+
+					<div style="margin-left: 10px;" class="elem">
+						<div class="name-menu">Syrup / topping (10ml)</div>
+						<div class="price">2.00 grn</div>
+						<a data-id="modal-window-34" href="#" id="btn__modal" class="trigger">More details</a>
+
+						<div class="modal" id="modal-window-34" style="display: none">
+							<div class="modal__content">
+								<a href="#" class="close">&times;</a>
+								<div class="modal-header">
+									<h1 style="font-size: 22px;">Syrup / topping (10ml)</h1>
+									<div style="font-size: 22px; text-align: right; margin: 18px 5% 0 0;">2.00 grn</div>
+								</div>
+								
+								<img class="img__modal" src="../assets/images/menu/34.jpg">
+								<p class="block__text">An ingredient in a dish that gives it a taste and aesthetic completeness</p>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Site navigation</h4>
+						<a href="index.html" class="menu__elem-footer">Home</a>
+						<a href="#" class="menu__elem-footer">Menu</a>
+						<a href="pizzas.html" class="menu__elem-footer">Pizzas</a>
+						<a href="contacts.html" class="menu__elem-footer">Contacts</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Application</h4>
+						<a class="downl-link" href="app.html">Download application</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Language</h4>
+						<a class="language active">Eng</a> /
+						<a class="language" href="../ru/menu.html">Рус</a> /
+						<a class="language" href="../menu.html">Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text">&copy All rights reserved and belong to the cafe "CHAIKA"</div>
+			</div>
+		</footer>
+
+
+		<script type="text/javascript">
+			jQuery(function($){
+				// bind event handlers to modal triggers
+				$('body').on('click', '.trigger', function(e){
+				    e.preventDefault();
+				    $('#elem').fadeIn(1000);
+				    $('#'+$(this).attr('data-id')).modal().open();
+				});
+
+				// attach modal close handler
+				$('.modal .close').on('click', function(e){
+					e.preventDefault();
+					$('#elem').fadeOut(1000);
+					$.modal().close();
+				});
+
+
+				// below isn't important (demo-specific things)
+				$('.modal .more-toggle').on('click', function(e){
+					e.stopPropagation();
+					$('#elem').fadeOut(1000);
+					$('.modal .more').toggle();
+				});
+			});
+		</script>
+
+		<script src="../assets/js/snowfall.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/addition.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/app.js"></script>
+	</body>
+</html>

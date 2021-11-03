@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Чайка</title>
+		<link rel="shortcut icon" href="../icon.ico" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/menu.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/adapt.css">
+		<link rel="stylesheet" type="text/css" href="../assets/css/fonts.css">
+
+		  <!-- Slider -->
+		<link rel="stylesheet" href="../assets/css/simple-adaptive-slider.min.css">
+		<script defer src="../assets/js/simple-adaptive-slider.dev.js"></script>
+		<script>
+		    document.addEventListener('DOMContentLoaded', function () {
+		      // инициализация слайдера
+		      var slider = new SimpleAdaptiveSlider('.slider', {
+		        loop: true,
+		        autoplay: true,
+		        interval: 10000,
+		        swipe: true
+		      });
+		    });
+		</script>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<script src="../assets/js/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__logo">Chaika</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link active" href="#" data-scroll="#about">Home</a>
+						<a class="nav__link" href="menu.html">Menu</a>
+						<a class="nav__link" href="contacts.html">Contacts</a>
+					</nav>
+
+					<button onselectstart="return false" onmousedown="return false" class="nav-toggle" id="nav-toggle" type="button">
+						<span class="nav-toggle__item">Menu</span>
+					</button>
+
+				</div>
+			</div>
+		</header>
+		<div class="intro-img">
+			<div class="intro" id="introH">
+				<div class="container">
+				</div>
+			</div>
+		</div>
+		<section class="section">
+			<div class="container">
+				<div class="block">
+					<h1 class="block__title">Who are we</h1>
+					<p class="text">Cafe "CHAIKA" is the best cafe in the city of Seredina-Buda. Much attention is paid to the high quality of products, which is why we cook only from high-quality and fresh products.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section">
+			<div class="container">
+				<div class="block">
+					<h1 class="block__title">Why are we</h1>
+					<p class="block__text">Because we can do a lot of things:</p>
+				</div>
+				<div class="skils">
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/1.svg"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Fast cooking</h3>
+							<p class="p__skil">The cafe prepares quickly - delicious and high-quality food</p>
+						</div>
+					</div>
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/2.svg"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Large menu</h3>
+							<p class="p__skil">You will find a lot of delicious food in the cafe</p>
+						</div>
+					</div>
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/3.svg"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Good service</h3>
+							<p class="p__skil">You will never be left unattended</p>
+						</div>
+					</div>
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/4.svg"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Takeaway food</h3>
+							<p class="p__skil">Here you can take food that you can have a good snack or breakfast</p>
+						</div>
+					</div>
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/5.svg"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Not expensive</h3>
+							<p class="p__skil">Here the price / quality ratio</p>
+						</div>
+					</div>
+					<div class="skil__item">
+						<div class="elem__skil"><img class="img__skil" src="../assets/images/skils/6.png"></div>
+						<div class="elem__skil">
+							<h3 class="title__skil">Pizza to order</h3>
+							<p class="p__skil">You can always order pizza</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="block">
+					<h1 class="block__title">Menu</h1>
+					<p class="text">Cafe "CHAIKA" can offer you a wide range of pancakes, pizza, rolls, drinks for every taste.</p>
+					<a class="btn" href="menu.html">More details</a>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="section">
+			<div class="block-pizza"></div>
+			<div  class="container">
+				<div class="block">
+					<h1 class="block__title">Pizzas</h1>
+					<p class="block__text">Cafe "Chaika" can offer you a wide range of pizza, which can be ordered in advance</p>
+				</div>
+
+				<div class="pizza-container">
+					<div class="pizza-elem">
+						<div class="pizza-name">Pizza "Margarita"</div>
+						<div class="pizza-img"><img class="img-pizza" src="../assets/images/pizza/1.jpg"></div>
+						<div class="pizza-price">(850g) 65.00grn</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-5">More details</a></div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Pizza "Assorte"</div>
+						<div class="pizza-img"><img class="img-pizza" src="../assets/images/pizza/2.jpg"></div>
+						<div class="pizza-price">(850g) 95.00grn</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-5">More details</a></div>
+					</div>
+
+					<div class="pizza-elem">
+						<div class="pizza-name">Pizza "NEXT"</div>
+						<div class="pizza-img"><img class="img-pizza" src="../assets/images/pizza/3.jpg"></div>
+						<div class="pizza-price">(850g) 120.00grn</div>
+						<div style="display: block; width: 100%;"><a style="padding: 8px 30px; margin: 20px auto;" id="btn-modal" class="trigger" data-id="modal-window-5">More details</a></div>
+					</div>
+				</div>
+				
+				<div style="z-index: 2; position: relative; margin-top: -36px;" class="block"><a class="btn" href="pizzas.html">More details</a></div>
+			</div>
+
+		<!--
+		<div class="block">
+			<h1 style="font-size: 22.5px;" class="block__title">What is this cafe</h1>
+			<p class="block__text">Pictures cafe "CHAIKA"</p>
+		</div>
+		<section style="position: relative; z-index: 2;" class="section">
+			<div class="container">
+				<div class="slider">
+	  				<div class="slider__wrapper">
+	    				<div class="slider__items">
+		      				<div class="slider__item">
+		        				<div style="height: 250px; background: #3f51b5;"></div>
+		      				</div>
+		      				<div class="slider__item">
+		        				<div style="height: 250px; background: #607d8b;"></div>
+		      				</div>
+		      				<div class="slider__item">
+		        				<div style="height: 250px; background: #f44336;"></div>
+		      				</div>
+		      				<div class="slider__item">
+		        				<div style="height: 250px; background: #4caf50;"></div>
+		      				</div>
+	    				</div>
+	  				</div>
+	  				<a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+	  				<a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+				</div>
+			</div>
+		</section>-->
+
+		<div class="block">
+			<h1 style="font-size: 22.5px;" class="block__title">Where is</h1>
+			<p class="text">17 Evropeyskaya street, Seredina-Buda, Ukraine</p>
+		</div>
+		<section class="section__map">
+			<div class="container__map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2446.0702552236285!2d34.03470201600373!3d52.18759566856217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412c6734d159bc5f%3A0xfa5420626a036e18!2z0KfQsNC50LrQsA!5e0!3m2!1sru!2sua!4v1629221712266!5m2!1sru!2sua" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="col-footer">
+					<div class="menu-footer">
+						<h4 class="footer-h">Site navigation</h4>
+						<a href="#" class="menu__elem-footer">Home</a>
+						<a href="menu.html" class="menu__elem-footer">Menu</a>
+						<a href="pizzas.html" class="menu__elem-footer">Pizzas</a>
+						<a href="contacts.html" class="menu__elem-footer">Contacts</a>
+					</div>
+					<div class="downl-app">
+						<h4 class="footer-h">Application</h4>
+						<a class="downl-link" href="app.html">Download application</a>
+					</div>
+					<div class="language-site">
+						<h4 class="footer-h">Language</h4>
+						<a class="language active">Eng</a> /
+						<a class="language" href="../ru/index.html">Рус</a> /
+						<a class="language" href="../index.html">Укр</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="copyright-text">&copy All rights reserved and belong to the cafe "CHAIKA"</div>
+			</div>
+		</footer>
+		
+		<script src="../assets/js/snowfall.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/app.js"></script>
+		<script language="JavaScript" type="text/javascript" src="../assets/js/addition.js"></script>
+	</body>
+</html>
