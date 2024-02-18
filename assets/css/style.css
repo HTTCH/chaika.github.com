@@ -619,3 +619,8 @@ body{
 	color: white;
 	background-color: #929191;
 }
+
+.awards > div {
+	display: flex;
+	justify-content: center;
+}
